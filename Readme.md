@@ -51,10 +51,12 @@ Each recording follows this structure:
 
 ---
 
-## Challenge
+## Challenge for now ig
 
-1. **High dimensionality** — The ToF data alone can produce **64,000+ values** for a single sequence.
-2. **Missing data** — ToF readings often contain `-1` (no object detected).
-3. **Variable sequence length** — Gestures vary in duration, so each `sequence_id` contains a different number of time steps.
+1. **High dimensionality** The ToF data alone can produce **64,000+ values** for a single sequence.
+2. **Missing data** ToF readings often contain `-1` (no object detected).
+3. **Variable sequence length** Gestures vary in duration, so each `sequence_id` contains a different number of time steps.
+
+4. **there will be alot of challanges soon :)**
 
 ---
