@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository documents my journey through a **machine learning competition** focused on detecting **Body-Focused Repetitive Behaviors (BFRBs)** — self-directed habits like:
+This repository documents my journey through a **machine learning competition** focused on detecting **Body-Focused Repetitive Behaviors (BFRBs)** , self-directed habits like:
 
 - Hair pulling
 - Skin picking
@@ -16,7 +16,7 @@ The **goal** of this project is to detect BFRB-like gestures from **wrist-worn s
 
 ## The Helios Device
 
-The **Helios** device is not your average smartwatch — it combines **three types of sensors**:
+The **Helios** device is not your average smartwatch. it combines **three types of sensors**:
 
 | Sensor                        | Description                                                 | Why it matters                               |
 | ----------------------------- | ----------------------------------------------------------- | -------------------------------------------- |
@@ -47,7 +47,7 @@ Each recording follows this structure:
 - `train.csv` / `test.csv` → sensor readings per time step.
 - `*_demographics.csv` → participant info (age, sex, handedness, height, etc.).
 
-  **Note:** About half of the test sequences contain only IMU data — thermopile and ToF are missing due to hardware failure or whatever.
+  **Note:** About half of the test sequences contain only IMU data. thermopile and ToF are missing due to hardware failure or whatever.
 
 ---
 
